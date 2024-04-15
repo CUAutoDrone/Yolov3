@@ -39,6 +39,7 @@ def plot_image(image, boxes):
     ax.imshow(img) 
   
     # Plotting the bounding boxes and labels over the image 
+    count = 0
     for box in boxes: 
         # Get the class from the box 
         class_pred = box[0] 
@@ -70,6 +71,7 @@ def plot_image(image, boxes):
             verticalalignment="top", 
             bbox={"color": colors[int(class_pred)], "pad": 0}, 
         ) 
-  
+        count += 1
     # Display the plot 
+        plt.savefig('/Users/pavithrak/CUAD/Pavithra_Repo/yolov3/src/mast_data/train_data/' + 'train_{}.jpg'.format(count))
     plt.show()

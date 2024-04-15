@@ -21,8 +21,6 @@ from helper import iou
   
 from tqdm import tqdm
 
-
-
 class CNNBlock(nn.Module): 
     def __init__(self, in_channels, out_channels, use_batch_norm=True, **kwargs): 
         super().__init__() 

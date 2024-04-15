@@ -1,0 +1,11 @@
+MastDataTest/
+mast_data/
+__pycache__/
+avg_mast_data.csv
+avg_test_mast_data.csv
+checkpoint.pth.tar
+mast_data.csv
+new_test_data.csv
+
+
+

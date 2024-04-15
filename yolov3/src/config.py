@@ -22,7 +22,7 @@ ANCHORS = [
 batch_size = 32
   
 # Learning rate for training 
-leanring_rate = 1e-5
+learning_rate = 1e-5
   
 # Number of epochs for training 
 epochs = 20
@@ -34,4 +34,4 @@ image_size = 416
 s = [image_size // 32, image_size // 16, image_size // 8] 
   
 # Class labels 
-class_labels = []
+class_labels = ["mast"]
